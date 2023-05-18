@@ -1,3 +1,8 @@
 @import 'mixins/media';
 
-@import 'globals/variables';
+@import 'global/accessibility';
+@import 'global/reset';
+@import 'global/variables';
+
+@import 'utilities/colors';
+@import 'utilities/typography';
