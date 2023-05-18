@@ -1,8 +1,33 @@
+@import 'mixins/bannerMix';
+@import 'mixins/buttonMix';
+@import 'mixins/containerMix';
+@import 'mixins/flexMix';
+@import 'mixins/headingsMix';
+@import 'mixins/iconsMix';
+@import 'mixins/imagesMix';
+@import 'mixins/linksMix';
 @import 'mixins/media';
+
+@import 'components/banner';
+@import 'components/buttons';
+@import 'components/container';
+@import 'components/headings';
+@import 'components/icons';
+@import 'components/images';
+@import 'components/links';
 
 @import 'global/accessibility';
 @import 'global/reset';
 @import 'global/variables';
 
+@import 'sections/about';
+@import 'sections/contact';
+@import 'sections/footer';
+@import 'sections/hero';
+@import 'sections/navigation';
+@import 'sections/projects';
+
+@import 'utilities/box-shadows';
 @import 'utilities/colors';
+@import 'utilities/spacing';
 @import 'utilities/typography';

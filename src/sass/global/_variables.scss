@@ -108,6 +108,7 @@
 
   /**    BORDERS    **/
 
+  --border-xxs: 0.0625em solid var(--primary-800);
   --border-xs: 0.125em solid var(--primary-800);
   --border-sm: 0.1865em solid var(--primary-800);
   --border-md: 0.25em solid var(--primary-800);
@@ -124,5 +125,8 @@
 
   /**    TRANSITIONS    **/
 
+  --transition-snap: 2.5s cubic-bezier(.38,.76,.99,.63);
+  --transition-soft: 2.5s cubic-bezier(.48,.92,.66,.57);
+  --transition-slow-start: 2.5s cubic-bezier(.07,.14,.99,.02);
   
 }
