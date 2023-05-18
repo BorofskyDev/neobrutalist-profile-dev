@@ -1,0 +1,128 @@
+:root {
+  /**    COLORS    **/
+
+  // Blue
+  --blue-200: #d1e3ff;
+  --blue-300: #a6c9ff;
+  --blue-400: #6ba5ff;
+  --blue-500: #1c75ff;
+  --blue-600: #1e58b0;
+  --blue-700: #1d3f73;
+  --blue-800: #15294a;
+
+  // Red
+  --red-200: #ffd4dc;
+  --red-300: #ff8fa3;
+  --red-400: #ff7a93;
+  --red-500: #ff4063;
+  --red-600: #c94860;
+  --red-700: #692430;
+  --red-800: #3d1d23;
+
+  // Purple
+  --purple-200: #ded6ff;
+  --purple-300: #c6b8ff;
+  --purple-400: #9f87ff;
+  --purple-500: #7957ff;
+  --purple-600: #533ab5;
+  --purple-700: #32246e;
+  --purple-800: #1e1936;
+
+  // Yellow
+  --yellow-100: #fbffcc;
+  --yellow-300: #f8ffad;
+  --yellow-400: #f4ff78;
+  --yellow-500: #bbc72e;
+  --yellow-600: #8f9638;
+  --yellow-700: #5d612f;
+  --yellow-800: #303312;
+
+  // Green
+  --green-200: #a1e6b8;
+  --green-300: #81e6a3;
+  --green-400: #57e688;
+  --green-500: #12e65a;
+  --green-600: #44bd6d;
+  --green-700: #31874e;
+  --green-800: #183d25;
+
+  // Pink
+  --pink-200: #ffc7f4;
+  --pink-300: #ff8fe9;
+  --pink-400: #ff7ae4;
+  --pink-500: #ff2ed5;
+  --pink-600: #d44cb9;
+  --pink-700: #964586;
+  --pink-800: #47093b;
+
+  // Primary
+  --primary-200: #e8f0fc;
+  --primary-300: #d5dde8;
+  --primary-400: #b2b8c2;
+  --primary-500: #6c7075;
+  --primary-600: #3f444d;
+  --primary-700: #212429;
+  --primary-800: #0a0b0d;
+
+  /**    TYPOGRAPHY    **/
+
+  // Font-Family
+  --ff-content: 'Inter', sans-serif;
+  --ff-title: 'Inconsolata', monospace;
+  --ff-link: 'Tinos', serif;
+
+  // Font-Size
+  --fs-200: 0.875rem;
+  --fs-300: 1rem;
+  --fs-400: 0.9375rem;
+  --fs-500: 1rem;
+  --fs-600: 1rem;
+  --fs-700: 1.5rem;
+  --fs-800: 3.5rem;
+  --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
+
+  @include respond(tab) {
+    --fs-400: 1rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.5rem;
+    --fs-700: 2.5rem;
+    --fs-800: 5rem;
+  }
+
+  @include respond(desktop) {
+    --fs-400: 1.125rem;
+    --fs-500: 1.75rem;
+    --fs-600: 2rem;
+    --fs-700: 3.5rem;
+    --fs-800: 6.25rem;
+  }
+
+  /**    BOX SHADOWS    **/
+
+  --bxs-xs: 0.25em 0.25em 0 var(--primary-800);
+  --bxs-sm: 0.5em 0.5em 0 var(--primary-800);
+  --bxs-md: 0.75em 0.75em 0 var(--primary-800);
+  --bxs-lg: 1em 1em 0 var(--primary-800);
+  --bxs-xl: 1.25em 1.25em 0 var(--primary-800);
+  //   --bxs-xxl: 1.5em 1.5em 0 var(--primary-800);
+
+  /**    BORDERS    **/
+
+  --border-xs: 0.125em solid var(--primary-800);
+  --border-sm: 0.1865em solid var(--primary-800);
+  --border-md: 0.25em solid var(--primary-800);
+  --border-lg: 0.3125em solid var(--primary-800);
+  --border-xl: 0.375em solid var(--primary-800);
+
+  /**    BORDER RADIUS    **/
+
+  --br-xs: 0.1875em;
+  --br-sm: 0.3125em;
+  --br-md: 0.5em;
+  --br-lg: 0.75em;
+  --br-xl: 1em;
+
+  /**    TRANSITIONS    **/
+
+  
+}
