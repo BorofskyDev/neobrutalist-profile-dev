@@ -1,37 +1,57 @@
 .nav {
-    @include flexSpaceBetween;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    padding: 0.5em 2em;
+  @include flexCenter;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  padding: 0.5em 2em;
+  height: 5.4em;
+  border-top: var(--border-sm);
+  border-bottom: var(--border-lg);
+  z-index: 1000;
+  transition: var(--transition-snap);
+
+  &__links {
+    position: relative;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__link-container {
+    @include flexSpaceAround;
     height: 5em;
-    border-top: var(--border-sm);
-    border-bottom: var(--border-lg);
-    z-index: 1000;
+    width: 100%;
+    border-right: var(--border-xs);
     transition: var(--transition-snap);
 
-    &__links {
-        position: relative;
-        height: 100%;
-        width: 60%;
-        display: flex;
-        align-items: center;
+    &:nth-child(1) {
+      border-left: var(--border-xs);
     }
 
-    &__link-container {
-        @include flexSpaceAround;
-        height: 5em;
-        width: 100%;
-        border-right: var(--border-element);
-        transition: var(--transition-snap);
-
-        &:nth-child(1) {
-            border-left: var(--border-element);
-        }
-
-        &--link {
-            margin-inline: 0.5em;
-            text-transform: uppercase;
-        }
+    &--link {
+      margin-inline: 0.5em;
+      text-transform: uppercase;
+      letter-spacing: var(--ls-sm);
+      font-weight: 700;
     }
+  }
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  transition: var(--transition-snap);
+
+  @include respond(desktop) {
+    height: 3em;
+
+    .nav__link-container {
+      height: 3em;
+    }
+  }
+}
+
+.navbarOffsetMargin {
+  padding-top: 1em;
 }

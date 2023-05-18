@@ -29,7 +29,7 @@
   --purple-800: #1e1936;
 
   // Yellow
-  --yellow-100: #fbffcc;
+  --yellow-200: #fbffcc;
   --yellow-300: #f8ffad;
   --yellow-400: #f4ff78;
   --yellow-500: #bbc72e;
@@ -69,7 +69,7 @@
   // Font-Family
   --ff-content: 'Inter', sans-serif;
   --ff-title: 'Inconsolata', monospace;
-  --ff-link: 'Tinos', serif;
+  --ff-link: 'IBM Plex Mono', monospace;
 
   // Font-Size
   --fs-200: 0.875rem;
@@ -96,6 +96,11 @@
     --fs-700: 3.5rem;
     --fs-800: 6.25rem;
   }
+
+  // Letter Spacing
+  --ls-sm: 0.0625em;
+  --ls-md: 0.125em;
+  --ls-lg: 0.25em;
 
   /**    BOX SHADOWS    **/
 
@@ -125,8 +130,7 @@
 
   /**    TRANSITIONS    **/
 
-  --transition-snap: 2.5s cubic-bezier(.38,.76,.99,.63);
-  --transition-soft: 2.5s cubic-bezier(.48,.92,.66,.57);
-  --transition-slow-start: 2.5s cubic-bezier(.07,.14,.99,.02);
+  --transition-snap: all 0.3s cubic-bezier(0.5, 0.5, 0.3, 0.1);
+  --transition-soft: all 0.6s ease-in;
   
 }

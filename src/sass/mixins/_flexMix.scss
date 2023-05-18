@@ -1,3 +1,9 @@
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @mixin flexSpaceBetween {
     display: flex;
     align-items: center;
