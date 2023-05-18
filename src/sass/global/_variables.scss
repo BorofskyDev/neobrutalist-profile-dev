@@ -84,8 +84,9 @@
   /**    BOX SHADOWS    **/
 
   // Text Shadows
-  --txs-1: 0.0425em 0.0425em 0 var(--red-400), 0.0825em 0.0825em 0 var(--green-400),
-    0.1225em 0.1225em 0 var(--purple-400);
+  --txs-1: 0.0625em 0.0625em 0 var(--purple-600);
+
+  --txs-dark: 0 0 0.125em var(--black);
 
   // Box Shadows
   --bxs-xs: 0.25em 0.25em 0 var(--black);

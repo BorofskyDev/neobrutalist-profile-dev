@@ -1,3 +1,6 @@
-.large-text-container {
-  
+.grid-4x4 {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }

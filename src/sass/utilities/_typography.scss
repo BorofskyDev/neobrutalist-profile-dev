@@ -21,3 +21,9 @@
 .fw-500 { font-weight: 500; }
 .fw-700 { font-weight: 700; }
 .fw-900 { font-weight: 900; }
+
+/**    LETTER SPACING    **/
+
+.ls-sm { letter-spacing: var(--ls-sm); }
+.ls-md { letter-spacing: var(--ls-md); }
+.ls-lg { letter-spacing: var(--ls-lg); }
