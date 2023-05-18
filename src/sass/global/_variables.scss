@@ -1,45 +1,27 @@
 :root {
   /**    COLORS    **/
 
-  // Extra Lights (used for text)
-  --blue-200: #e0edff;
-  --red-200: #fff0f0;
-  --purple-200: #f1e6ff;
-  --yellow-200: #fffceb;
-  --green-200: #edffef;
-  --orange-200: #fff2e6;
+  // Primary Colors (best for backgrounds)
+  --blue: #D1E3FF;
+  --red: #FF8FA3;
+  --purple: #C6B8FF;
+  --yellow: #FFC800;
+  --green: #239F93;
+  --pink: #FF8FE9;
 
-  // Light (used for backgrounds with dark text)
-  --blue-300: #b8d4ff;
-  --red-300: #ffbfbf;
-  --purple-300: #d5b5ff;
-  --yellow-300: #fff4ba;
-  --green-300: #baffc1;
-  --orange-300: #ffd6b0;
+  // Highlight Colors (best for highlights, use sparingly)
+  --highlight-red: #FF002E;
+  --highlight-green: #00B5A4;
+  --highlight-pink: #FF00CD;
+  
+  // Light Colors (best for text on dark backgrounds)
+  --light-blue: #DDE4F0;
+  --light-yellow: #FFFBED;
 
-  // Primary (used for backgrounds with no text)
-  --blue-400: #87b7ff;
-  --red-400: #ff9090;
-  --purple-400: #ba85ff;
-  --yellow-400: #ffeb82;
-  --green-400: #90ff9b;
-  --orange-400: #ffc590;
-
-  // Vibrant (used for highlights or small backgrounds)
-  --blue-500: #0066ff;
-  --red-500: #ff0000;
-  --purple-500: #6f00ff;
-  --yellow-500: #ffd600;
-  --green-500: #00ff1a;
-  --orange-500: #ff7a00;
-
-  // Darks (used for backgrounds with light text)
-  --blue-600: #00265e;
-  --red-600: #590000;
-  --purple-600: #2b0063;
-  --yellow-600: #705e00;
-  --green-600: #004707;
-  --orange-600: #5c2c00;
+  // Dark Colors (best for backgrounds with minimal text)
+  --dark-blue: #002E75;
+  --dark-red: #5E0011;
+  --dark-purple: #410094;
 
   --black: #000000;
 
@@ -84,7 +66,7 @@
   /**    BOX SHADOWS    **/
 
   // Text Shadows
-  --txs-1: 0.0625em 0.0625em 0 var(--purple-600);
+  --txs-1: 0.0625em 0.0625em 0 var(--purple);
 
   --txs-dark: 0 0 0.125em var(--black);
 
