@@ -2,11 +2,7 @@
   height: 4em;
   padding: 0.5em 0;
   text-align: center;
-  font-size: var(--fs-700);
   font-weight: 700;
   letter-spacing: var(--ls-lg);
 
-  @include respond(tab) {
-    font-size: var(--fs-700);
-  }
 }
