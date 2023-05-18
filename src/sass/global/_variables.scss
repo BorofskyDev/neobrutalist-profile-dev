@@ -3,43 +3,43 @@
 
   // Extra Lights (used for text)
   --blue-200: #e0edff;
-  --red-200: #FFF0F0;
-  --purple-200: #F1E6FF;
-  --yellow-200: #FFFCEB;
-  --green-200: #EDFFEF;
-  --orange-200: #FFF2E6;
+  --red-200: #fff0f0;
+  --purple-200: #f1e6ff;
+  --yellow-200: #fffceb;
+  --green-200: #edffef;
+  --orange-200: #fff2e6;
 
   // Light (used for backgrounds with dark text)
   --blue-300: #b8d4ff;
-  --red-300: #FFBFBF;
-  --purple-300: #D5B5FF;
-  --yellow-300: #FFF4BA;
-  --green-300: #BAFFC1;
-  --orange-300: #FFD6B0;
+  --red-300: #ffbfbf;
+  --purple-300: #d5b5ff;
+  --yellow-300: #fff4ba;
+  --green-300: #baffc1;
+  --orange-300: #ffd6b0;
 
   // Primary (used for backgrounds with no text)
   --blue-400: #87b7ff;
-  --red-400: #FF9090;
-  --purple-400: #BA85FF;
-  --yellow-400: #FFEB82;
-  --green-400: #90FF9B;
-  --orange-400: #FFC590;
+  --red-400: #ff9090;
+  --purple-400: #ba85ff;
+  --yellow-400: #ffeb82;
+  --green-400: #90ff9b;
+  --orange-400: #ffc590;
 
   // Vibrant (used for highlights or small backgrounds)
   --blue-500: #0066ff;
-  --red-500: #FF0000;
-  --purple-500: #6F00FF;
-  --yellow-500: #FFD600;
-  --green-500: #00FF1A;
-  --orange-500: #FF7A00;
+  --red-500: #ff0000;
+  --purple-500: #6f00ff;
+  --yellow-500: #ffd600;
+  --green-500: #00ff1a;
+  --orange-500: #ff7a00;
 
   // Darks (used for backgrounds with light text)
   --blue-600: #00265e;
   --red-600: #590000;
-  --purple-600: #2B0063;
-  --yellow-600: #705E00;
+  --purple-600: #2b0063;
+  --yellow-600: #705e00;
   --green-600: #004707;
-  --orange-600: #5C2C00;
+  --orange-600: #5c2c00;
 
   --black: #000000;
 
@@ -83,12 +83,16 @@
 
   /**    BOX SHADOWS    **/
 
+  // Text Shadows
+  --txs-1: 0.0425em 0.0425em 0 var(--red-400), 0.0825em 0.0825em 0 var(--green-400),
+    0.1225em 0.1225em 0 var(--purple-400);
+
+  // Box Shadows
   --bxs-xs: 0.25em 0.25em 0 var(--black);
   --bxs-sm: 0.5em 0.5em 0 var(--black);
   --bxs-md: 0.75em 0.75em 0 var(--black);
   --bxs-lg: 1em 1em 0 var(--black);
   --bxs-xl: 1.25em 1.25em 0 var(--black);
-
 
   //   --bxs-xxl: 1.5em 1.5em 0 var(--primary-800);
 

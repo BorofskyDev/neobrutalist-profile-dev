@@ -2,7 +2,7 @@
   @include flexCenter;
   position: sticky;
   top: 0;
-  width: 100vw;
+  max-width: 100%;
   padding: 0.5em 2em;
   height: 5.4em;
   border-top: var(--border-sm);
@@ -11,6 +11,7 @@
   transition: var(--transition-snap);
 
   &__links {
+    @include flexSpaceAround;
     position: relative;
     height: 100%;
     width: 60%;
@@ -19,7 +20,8 @@
   }
 
   &__link-container {
-    @include flexSpaceAround;
+    @include flexAlignCenter;
+    text-align: center;
     height: 5em;
     width: 100%;
     border-right: var(--border-xs);
@@ -31,6 +33,7 @@
 
     &--link {
       margin-inline: 0.5em;
+      width: 6em;
       text-transform: uppercase;
       letter-spacing: var(--ls-sm);
       font-weight: 700;

@@ -1,0 +1,32 @@
+.two-col-section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: var(--border-lg);
+
+  @include respond(tab) {
+    flex-direction: row;
+  }
+
+  &__col-1,
+  &__col-2 {
+    height: 50%;
+    width: 100%;
+
+    @include respond(tab) {
+      height: 100%;
+      width: 50%;
+    }
+  }
+
+  &__col-1 {
+    border-bottom: var(--border-sm);
+
+    @include respond(tab) {
+      border-bottom: none;
+      border-right: var(--border-sm);
+    }
+  }
+}
